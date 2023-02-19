@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>emoji</title>
+    </head>
+    
+    <body>
+        <center><img src="mclose.png" height="10%" width="10%" id="cls"></center>
+        <script>
+            document.getElementById("cls").addEventListener("click",click);
+            document.getElementById("cls").addEventListener("mouseout",mouseOut);
+            function click(){
+                document.getElementById("cls").src="mopen.png";
+            }
+            function mouseOut(){
+                document.getElementById("cls").src="mclose.png";
+            }
+        </script>
+    </body>
+</html>
